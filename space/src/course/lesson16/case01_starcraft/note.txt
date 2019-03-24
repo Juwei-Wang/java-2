@@ -1,0 +1,23 @@
+    类分析
+        Stalker 蜘蛛              行走  攻击
+        +   move()
+        +   attack()
+
+        Observer 检查机           飞行
+        +   move()
+
+        PhotonCanon 光子佳能炮台         攻击
+        +   attack()
+
+        Unit
+        +   location: Point
+
+
+        GameMap
+        -   units: LinkedList<Unit>
+        +   addUnit(unit: Unit) {
+                units.add(unit)
+        }
+
+        Game
+        +   run()

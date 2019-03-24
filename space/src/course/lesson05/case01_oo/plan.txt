@@ -1,0 +1,16 @@
+UML class diagram
+
+Player : class
++   atk: int    get set
++   def: int    get set
++   hp: int     get set
++   weapon: Weapon  get set
++   totalAtk() -> int
++   totalDef() -> int
+
+Weapon : class
++   atk: int    get set
++   def: int    get set
+
+Driver
++   run()
